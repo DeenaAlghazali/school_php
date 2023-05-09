@@ -1,0 +1,161 @@
+body {
+  font-family: cursive !important;
+}
+* {
+  font-family: cursive !important;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: none;
+  }
+}
+
+.modal-dialog {
+  max-width: 500px !important;
+}
+
+.mb-5,
+.my-5 {
+  margin-bottom: 0 !important;
+}
+
+.buttons {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 10rem;
+}
+
+#template-bg-3 {
+  background-image: url("../images/template-bg-3.jpg");
+}
+
+.welcome {
+  position: absolute;
+  top: 10rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.text {
+  margin: 3rem;
+}
+
+.table-dark {
+  color: #fff;
+  background-color: #343a40;
+  width: 70%;
+  margin: auto;
+}
+
+.add-btn {
+  width: 70%;
+  margin: auto;
+  text-align: end;
+  margin-top: 2rem;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+#student {
+  width: 10%;
+}
+
+.grade-form {
+  margin-left: 4rem;
+}
+.btn-block {
+  margin-top: 0 !important;
+  /* background: red; */
+}
+.home .btn-block {
+  width: 45%;
+  text-align: left;
+  padding: 1rem;
+}
+.home a {
+  margin-bottom: 1rem;
+}
+
+.admin-btns {
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.admin-btns .btn-block {
+  display: block;
+  width: 31.3%;
+  height: 6rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.student-table {
+  width: 40% !important;
+  text-align: center;
+}
+
+.admin-teacher-table {
+  width: 85% !important;
+  text-align: center;
+}
+.admin-teacher-table td,
+.admin-teacher-table th {
+  padding: 0.65rem !important;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  font-size: 1rem !important;
+  padding: 0;
+}
+.admin-add-teacher,
+.container-custom {
+  width: 31rem;
+  height: 25rem;
+  margin-left: 3rem;
+  line-height: 2;
+  border: 3px solid #0000000d;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 3rem;
+}
+.admin-add-teacher input,
+.container-custom input {
+  float: right;
+}
+.admin-add-teacher .btn,
+.container-custom .btn {
+  margin-top: 1rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.user-name {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+.table {
+  width: 70% !important;
+}
